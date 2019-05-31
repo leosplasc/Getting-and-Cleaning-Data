@@ -220,13 +220,13 @@ The following transformations were applied to the source data:
 1. The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
 1. The variable names were replaced with descriptive variable names as shown below:
 
-   - code column in TidyData renamed into activities
-   - All Acc in column’s name replaced by Accelerometer
-   - All Gyro in column’s name replaced by Gyroscope
-   - All BodyBody in column’s name replaced by Body
-   - All Mag in column’s name replaced by Magnitude
-   - All start with character f in column’s name replaced by Frequency
-   - All start with character t in column’s name replaced by Time
+   - `code` column in TidyData renamed into `activities`
+   - All `Acc` in column’s name replaced by `Accelerometer`
+   - All `Gyro` in column’s name replaced by `Gyroscope`
+   - All `BodyBody` in column’s name replaced by `Body`
+   - All `Mag` in column’s name replaced by `Magnitude`
+   - All start with character `f` in column’s name replaced by `Frequency`
+   - All start with character `t` in column’s name replaced by `Time`
 
 1. From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
 
